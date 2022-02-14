@@ -11,8 +11,6 @@ namespace DarkART
 class Initial_Electron_State
 {
   private:
-	std::string element_name;
-
 	// RHF coefficients
 	std::vector<double> C_nlj, Z_lj, n_lj;
 	std::vector<std::string> l_orbital_names = {"s", "p", "d", "f", "g"};
@@ -20,6 +18,7 @@ class Initial_Electron_State
 	void Import_RHF_Coefficients();
 
   public:
+	std::string element_name;
 	int Z, n, l;
 	double binding_energy, Z_eff;
 
