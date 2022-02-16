@@ -22,6 +22,7 @@
 	    Configuration.cpp
 	    Radial_Integrator.cpp
 	    Response_Tabulation.cpp
+	    Schroedinger_Equation.cpp
 	    Special_Functions.cpp
 	    Wavefunctions_Final.cpp
 	    Wavefunctions_Initial.cpp)
